@@ -2,9 +2,9 @@ class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] ans = {-1,-1};
         // check for first occurence of target
-        ans[0] = search(nums, target, true);
+        ans[0] = search(nums, target, true); // log n
         if(ans[0] != -1)
-            ans[1] = search(nums, target, false);
+            ans[1] = search(nums, target, false); // logn = 2 log n constandt are not counted
          
         return ans;
     }
