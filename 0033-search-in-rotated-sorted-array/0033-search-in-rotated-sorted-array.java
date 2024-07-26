@@ -1,10 +1,4 @@
-/*
-1.find th pivot in the array (largest number in the array) form where next elements are sorted in ascending [4,5,6,7,0,1,2]
-if(nums[mid] > nums[mid+1]) then pivot = nums[mid]
-2. search in first half (0,pivot)
-3. if not found, search in second half (pivot+1, nums.length)
 
-*/
 
 class Solution {
     public int search(int[] nums, int target) {
