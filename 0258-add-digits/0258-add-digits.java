@@ -2,9 +2,7 @@ class Solution {
     public int addDigits(int num) {
         
         int res = 0;
-        if(num == 0) {
-            return 0;
-        }
+        
         
         while(num > 0) {
             int rem = num % 10;
