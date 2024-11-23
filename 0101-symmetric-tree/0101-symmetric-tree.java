@@ -14,20 +14,23 @@
  * }
  */
 class Solution {
-     public boolean isSymmetric(TreeNode root) {
-        if (root == null) {
+    public boolean isSymmetric(TreeNode root) {
+        if(root == null) {
             return true;
         }
+             
         return isMirror(root.left, root.right);
     }
-    
-    private boolean isMirror(TreeNode node1, TreeNode node2) {
-        if (node1 == null && node2 == null) {
+    private boolean isMirror(TreeNode leftN, TreeNode rightN) {
+        if(leftN == null && rightN == null) {
             return true;
         }
-        if (node1 == null || node2 == null) {
+        if(leftN == null || rightN == null) {
             return false;
         }
-        return node1.val == node2.val && isMirror(node1.left, node2.right) && isMirror(node1.right, node2.left);
+        
+        return leftN.val == rightN.val && isMirror(leftN.left, rightN.right) && isMirror(leftN.right, rightN.left);
     }
 }
+
+ 
