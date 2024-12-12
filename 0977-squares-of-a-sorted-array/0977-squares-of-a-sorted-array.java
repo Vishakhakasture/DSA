@@ -4,8 +4,8 @@ class Solution {
         int[] res = new int[n];
         
         int i = 0, j = n - 1;
-        for(int p = 0; p < n; p++) {
-            if(Math.abs(nums[i]) < Math.abs(nums[j])) {
+        for(int p = n-1; p >= 0; p--) {
+            if(Math.abs(nums[i]) > Math.abs(nums[j])) {
                 res[p] = nums[i] * nums[i];
                 i++;
             } else {
@@ -13,7 +13,7 @@ class Solution {
                 j--;
             }
         }
-        Arrays.sort(res);
+        // Arrays.sort(res);
         return res;
     }
 }
