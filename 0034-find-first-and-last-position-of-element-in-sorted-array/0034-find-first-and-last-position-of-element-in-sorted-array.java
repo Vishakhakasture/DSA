@@ -10,7 +10,7 @@ class Solution {
     }
         
     // these function returns index value of target
-    int search(int[] nums,int target, boolean findStartIndex) {
+    public int search(int[] nums,int target, boolean findStartIndex) {
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;
