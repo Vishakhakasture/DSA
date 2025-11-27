@@ -18,10 +18,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0441-arranging-coins](https://github.com/Vishakhakasture/DSA/tree/master/0441-arranging-coins) |
 | [0704-binary-search](https://github.com/Vishakhakasture/DSA/tree/master/0704-binary-search) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Vishakhakasture/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Matrix
 |  |
 | ------- |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Vishakhakasture/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+## Math
+|  |
+| ------- |
+| [0441-arranging-coins](https://github.com/Vishakhakasture/DSA/tree/master/0441-arranging-coins) |
 <!---LeetCode Topics End-->
